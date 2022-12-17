@@ -24,3 +24,12 @@
 
 Hasilnya seperti ini karena else akan dijalankan ketika try adalah True
 
+### 3. Contoh ini mencoba membuka file di mana Anda tidak memiliki izin menulis, sehingga menimbulkan pengecualian.
+
+![prak 9-2](https://user-images.githubusercontent.com/115516473/208233322-41ef7a58-a485-4632-99a5-29a10950fae6.png)
+
+### Mengapa hasilnya error? 
+
+### r adalah read - Membuka file untuk membaca, error jika file tidak ada. Disini ingin membaca file bukan menulis maka dibawahnya ```fh = open("testfile", "r")``` tambahkan ```print(fh.readline())``` dan fh.write dihapus. Setelah dijalankan, try dan else ditampilkan.
+
+### 4. 
