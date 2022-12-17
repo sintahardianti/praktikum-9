@@ -20,7 +20,9 @@
 
 ### Hasilnya :
 
-```Written content in the file successfully```
+```
+Written content in the file successfully
+```
 
 Hasilnya seperti ini karena else akan dijalankan ketika try adalah True
 
@@ -44,8 +46,17 @@ Hasilnya seperti ini karena else akan dijalankan ketika try adalah True
 
 ### Hasilnya : 
 
-### ```The argument does not contain numbers invalid literal for int() with base 10: 'xyz'```
+```
+The argument does not contain numbers 
+invalid literal for int() with base 10: 'xyz'
+```
 
 ### ketika dijalankan, maka muncul error. Hapus ```#!/usr/bin/python``` dan di ```except ValueError, Argument:``` ganti koma dengan as seperti ```except ValueError as Argument:```agar tidak error. Jika dijalankan akan muncul error lagi. Kenapa? karena parameter def temp_convert harus mengandung angka.
 
-###
+### 6. Contoh dan penjelasan keenam
+
+![prak 9-5](https://user-images.githubusercontent.com/115516473/208243725-a8418191-cedb-436b-8719-2c4d27a95c3a.png)
+
+### Jika dijalankan muncul SyntaxError artinya ada kesalahan sintaks. Pada raise ```"Invalid level!", level``` ganti tanda koma dengan tanda plus. Cetak def dengan angka yang lebih besar dari 1.
+
+## Selesai
